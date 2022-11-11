@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* Toda vez que uso id no HTML no CSS vira # */
+/*  Em HTML é class em CSS é . */
+
+body {
+    background-color: rgb(218, 245, 236);
+    font-family: cursive;
+}
+h1{
+    color: rgb(47, 64, 58);
+    font-family: monospace;
+}
+h1#principal{
+              color: whitesmoke;
+              text-align: center;
+              background-color:rgb(27, 55, 45) ;
+              font-family: monospace;
+}
+
+h2{
+    color: rgb(5, 87, 59);
+}
+
+.basico{
+    color: rgb(5, 87, 59);
+}
+.intermediario{
+    color: rgb(110, 115, 113);
+}
+.avancado{
+    color: rgb(1, 24, 17);
+}
+.destaque{
+    background-color:whitesmoke ;
+}

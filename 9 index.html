@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Usando fontes externas baixadas </title>
+    <style>
+        @font-face {
+            font-family: 'Love' ;
+            src: url('fonts/Romantic\ Fantasy.ttf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family:'Dog' ;
+            src: url('fonts/ValentineSoul.ttf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            
+        }
+            
+        
+
+            /* Tipos de formatos
+            - opentype (otf)
+            - truetype(ttf)
+            - embedded-opentype
+            - truetype-aat 
+            */
+        
+        p {
+            font-family: 'Dog', 'Arial Narrow', Arial, sans-serif;
+         }
+
+         h1 { 
+            font-family: 'Love', Times, serif;  /* Fonte retirada do site "dafonts.com" */
+            font-weight: normal;
+            font-size: 2em;
+         }
+
+    </style>
+</head>
+<body>
+    <h1> Pedro Lucas </h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod officia voluptatibus doloribus eos nulla necessitatibus tempore? Voluptas praesentium doloribus exercitationem itaque temporibus vero, harum provident qui molestiae aliquam numquam sapiente!</p>
+</body>
+</html>

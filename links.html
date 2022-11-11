@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Links </title>
+    <style>
+        /* SELETORES PERSONALIZADOS 
+           # = id
+           . = class
+           : = pseudo-class
+           :: = pseudo-elemento
+           > = clildren
+    
+        */
+
+        body{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        }
+        a{
+            color: rgb(81, 72, 72);
+            text-decoration: none; /* tirar o sublinhando do link */
+            font-weight: bold; /* negrito */
+
+        }
+
+        a:visit{      /* cor que o link ficará se já for visitado */
+            color: blueviolet;
+        }
+
+        a:hover{  /* configurar a cor do link quando passar o mouse por cima e acrescentar o sublinhado */ 
+            color: rgb(191, 206, 241);
+            text-decoration: underline;
+        }
+
+        a:active{   /* quando eu clicar o link ficará roxo */
+            color: blueviolet;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1> Personalizando links </h1>
+    <ul>
+        <li><a href="https://twitter.com/Amandaaaaabreu" target="_blank"> Perfil do twitter </a></li>
+        <li><a href="https://www.instagram.com/iamandabreu/" target="_blank"> Perfil do instagram </a> </li>
+    </ul>
+
+    <!-- Usei o target para o link abrir em uma página separada -->
+</body>
+</html>
